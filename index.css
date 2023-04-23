@@ -1,0 +1,459 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Eczar&family=Kanit:wght@500&family=Roboto+Mono:ital,wght@0,500;0,600;1,700&family=Roboto:wght@300;500;700&family=Rubik&family=Rubik+Bubbles&family=Space+Mono:ital@1&display=swap');
+
+
+body {
+    background-color: #ebf1f1;
+    font-family: 'Roboto Mono', monospace;
+
+    
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+
+.pn {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    transition: transform 1.5s;
+}
+
+
+.pn .name{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 3px;
+    color:    #EEA302;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.right {
+    margin-right: 50px;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li {
+    margin: 20px;
+    font-size: 16px;
+
+
+}
+
+.right ul li a {
+    color: black;
+    transition: color.5s ease;
+}
+
+.right ul li a:hover{
+
+    color:  #EEA302;
+    transition: color.5s ease;
+
+
+}
+
+.right ul li a.active{
+   color: #EEA302;
+}
+
+.container {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: justify;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+}
+
+.circulos,
+span {
+    display: flex;
+    margin: 10px;
+
+}
+
+.circulos a {
+    color: black;
+
+}
+
+.foto img {
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+
+}
+
+.foto {
+    margin-right: 30px;
+   
+
+}
+
+.text,
+h1,
+.sob,
+.desc {
+    margin: 10px;
+}
+
+.text h1 {
+
+    font-size: 100px;
+}
+
+.sob {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc {
+
+    line-height: 1.6em;
+    font-size: 17px;
+}
+
+.circle1, .circle2, .circle3{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    transition: background-color 0.5s ease;
+}
+
+.circle1:hover, .circle2:hover, .circle3:hover{
+    background-color: white;
+    transition: background-color 0.5s ease;
+
+}
+
+.circle1{
+    background-color: #EEA302;
+}
+
+.circle2{
+    background-color: #FF3B25;
+}
+
+.circle3{
+   background-color: #80D8DA ;
+}
+
+.circulos a{
+    font-weight: bold;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #bfbfbf;
+    margin: 40px;
+    padding-top: 40px;
+}
+
+.logo{
+   display: flex;
+}
+
+.icones {
+    display: flex;
+    text-align: justify;
+}
+
+.icones li{
+    margin: 5px;
+}
+
+.icones a {
+    color: black;
+}
+
+.logo{
+    font-size: 30px;
+    
+    
+}
+
+.rodape h2, p{
+    margin-bottom: 10px;
+}
+
+.d4{
+    color:  #666;
+}
+
+.main{
+    padding-right: 240px;
+    display: flex;
+}
+
+main .project p{
+    text-align: left;
+}
+
+
+.titulocuriculo{
+    margin-top: 80px;
+    margin-left: 190px;
+    margin-bottom: 70px;
+}
+
+.titulocuriculo .e1{
+    font-size: 42px;
+    margin: 0;
+}
+
+.text1 h2{
+    margin-left: 190px;
+    font-size: 26px;
+}
+
+.text1{
+    margin-right: 260px;
+}
+
+.text2 div{
+    display: flex;
+    margin-bottom: 10px;
+    position:relative;
+    right: 26%;
+ 
+    
+}
+
+
+
+.text2 div .span1{
+    margin-left: 0;
+}
+
+.text2 p {
+    text-align:justify;
+    font-size: 16px;
+    
+}
+
+.text2 div .d2{
+    font-size: 20px;
+}
+
+.text2 div{
+    margin-bottom: 40px;
+}
+
+ .borda{
+    border-bottom: 1px solid #bfbfbf ;
+    margin: 40px;
+ }
+
+ .span2{
+    margin-right: 39px;
+    position: relative;
+    right: -4%;
+    
+ }
+
+ .texto3 p{
+    display: flex;
+    position: relative;
+    left: 20%;
+ }
+
+ .text2 li {
+    margin-bottom: 10px;
+    position: relative;
+    left: 4%;
+ }
+
+ .text2 .ulp li{
+    position: relative;
+    left : -8%;
+ }
+
+ .box1{
+    margin-right: 100px;
+ }
+
+ .box1 h2{
+    margin-left: 190px;
+    margin-top:20px;
+ }
+ .box1 p {
+    margin-left: 190px;
+    margin-top: 20px;
+    line-height: 1.5em;
+   
+     
+
+ }
+
+ .box2{
+    margin-top: 30px;
+ }
+
+ .project{
+    display: flex;
+    margin-right: 240px;
+    margin-bottom: 120px;
+ }
+
+ .active{
+    color: #bfbfbf;
+ }
+
+ .contact{
+    margin-top: 80px;
+    margin-left: 190px;
+    
+    
+ }
+
+ .contact h1{
+    font-size: 42px;
+ }
+
+ .contact p{
+    margin-left: 10px;
+ }
+
+ .contact .vcsi{
+    margin-bottom: 40px;
+ }
+
+ .contact .vcs{
+    margin-bottom: 25px;
+ }
+
+ .contact span{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0;
+ }
+
+ .layoult{
+    display: grid;
+    grid-template-columns: 497px 497px;
+    grid-template-rows: 740px;
+    grid-gap: 180px;
+ }
+
+ .formulario{
+    padding-top:  120px;
+    display: flex;
+    justify-content: flex-end;
+    
+ }
+
+ .formulario form .input1{
+    display: inline-block;
+    margin-left: 20px;
+    
+    
+    
+ }
+ .formulario form label{
+    display: block;
+    margin-bottom: 10px;
+    
+   
+    
+ }
+
+ .formulario form input{
+    margin-bottom: 20px;
+    width: 215px;
+    height: 45px;
+    padding: 3px 3px 3px 7px;
+    border: 1px solid;
+    transition: border-width 0.1s ease-in-out;
+ }
+
+ .formulario form input:hover{
+    border-width: 2px;
+    font-weight: bold;
+ }
+
+ .formulario textarea{
+   
+    width: 300px;
+    height: 141px;
+    padding: 12px 10px 3px 7px;
+    border: 1px solid;
+    transition: border-width 0.1s ease-in-out;
+ }
+
+ .formulario textarea:hover{
+        border-width: 2px;
+        font-weight: bold;
+ }
+
+ .formulario form .input1 button{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    transition: background-color 0.5s ease;
+    background-color: #EEA302;
+    cursor: pointer;
+ }
+
+ .formulario form .input1 button:hover{
+    background-color: white;
+    transition: background-color 0.5s ease;
+
+}
+
+
